@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Листівка для Галини Йосипівни</title>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #fceabb, #f8b500);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            max-width: 600px;
+            text-align: center;
+            animation: fadeIn 2s ease;
+        }
+
+        h1 {
+            font-family: 'Marck Script', cursive;
+            font-size: 42px;
+            color: #d6336c;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 400;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .heart {
+            font-size: 30px;
+            margin: 20px 0;
+            animation: pulse 1.5s infinite;
+        }
+
+        .signature {
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>З днем народження!\n Галино Йосипівно!</h1>
+        <h2>З любов'ю та теплом у серці</h2>
+        <div class="heart">❤️</div>
+        <p>
+            Бажаю Вам міцного здоров'я, радості та спокою в душі.
+            Нехай кожен день приносить світло, тепло і щирі усмішки.
+            Ви - наша підтримка, мудрість і натхнення.
+        </p>
+        <p>
+            Нехай у Вашому домі завжди панує любов,
+            затишок і щасливі моменти.
+        </p>
+        <div class="signature">
+            З найкращими побажаннями від Дані з Софійкою💛
+        </div>
+    </div>
+</body>
+</html>
